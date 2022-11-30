@@ -4,7 +4,7 @@ services:
     image: shadowsocks/shadowsocks-libev
     container_name: shadowsocks
     environment:
-      - PASSWORD=OWEzZjk2Nj
+      - PASSWORD=OWEzZjk2Qw
       - METHOD=chacha20-ietf-poly1305
     ports:
       - "19368:8388/tcp"
